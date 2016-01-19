@@ -1,0 +1,67 @@
+{
+  "name": "exceljs",
+  "version": "0.2.3",
+  "description": "Excel Workbook Manager",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "Guyon Roche",
+    "email": "cyber.sapiens@hotmail.com",
+    "url": "https://github.com/gormat/node-excelJS-fixed-unzip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gormat/node-excelJS-fixed-unzip.git"
+  },
+  "keywords": [
+    "xlsx",
+    "json",
+    "csv",
+    "excel",
+    "font",
+    "border",
+    "fill",
+    "number",
+    "format",
+    "number format",
+    "alignment",
+    "office",
+    "spreadsheet",
+    "workbook"
+  ],
+  "dependencies": {
+    "archiver": "0.14.3",
+    "bluebird": "*",
+    "fast-csv": "0.5.7",
+    "moment": "~2.9.0",
+    "sax": "^0.6.0",
+    "underscore": "1.4.4",
+    "unzip2": ">= 0.2.5"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.14",
+    "memorystream": "*"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "main": "./excel.js",
+  "files": [
+    "excel.js",
+    "lib",
+    "LICENSE",
+    "README.md",
+    "MODEL.md"
+  ],
+  "homepage": "https://github.com/gormat/node-excelJS-fixed-unzip",
+  "_id": "exceljs-fixed-unzip@0.0.1",
+  "_shasum": "30858e6b136725e9fc5a1e62ca53f010b49468dd",
+  "_from": "exceljs@latest",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.1",
+  "_npmUser": {
+    "name": "guyonroche",
+    "email": "cyber.sapiens@hotmail.com"
+  },
+  "directories": {}
+}
